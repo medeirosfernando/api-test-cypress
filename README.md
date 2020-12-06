@@ -33,5 +33,5 @@ Projeto desenvolvido para o bootcamp da semana agilizei - https://agilizei.com/a
 
 # Gif dos testes executados
 
-
+![api-test-cypress](https://user-images.githubusercontent.com/25454762/101270052-d2009980-3753-11eb-9cb2-c973b9511382.gif)
 
