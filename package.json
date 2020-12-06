@@ -1,0 +1,20 @@
+{
+  "name": "aglz-api-testing",
+  "version": "1.0.0",
+  "description": "Testes de API - Website Treinamento API Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:healthcheck": "npx cypress run --env grep=@healthcheck",
+    "test:contract": "npx cypress run --env grep=@contract",
+    "test:functional": "npx cypress run --env grep=@functional"
+  },
+  "keywords": [],
+  "author": "Fernando Medeiros",
+  "license": "ISC",
+  "devDependencies": {
+    "cy-spok": "github:bahmutov/cy-spok",
+    "cypress": "^5.3.0",
+    "cypress-select-tests": "^1.5.9"
+  }
+}
